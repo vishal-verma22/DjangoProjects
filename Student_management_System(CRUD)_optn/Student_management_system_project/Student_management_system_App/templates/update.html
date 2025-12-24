@@ -1,0 +1,36 @@
+{% load static %}
+
+<html>
+<head>
+    <title>Student Update Page</title>
+    <link rel="stylesheet" href="{% static 'css/update.css' %}">
+
+</head>
+<body>
+
+
+ <h1>Update page</h1>
+<nav>
+		<li>
+		 <a href="{% url 'home' %}">  view student</a>
+<br>
+		• <a href="{% url 'delete' form.instance.rollno %}">Delete student</a>
+		<br>
+		• <a href="{% url 'create' %}"> Create student</a>
+		</li>
+
+	</nav>
+
+<div class="formcontainer">
+
+<form method="POST">
+{% csrf_token %}
+<table border=3>
+{{form.as_table}}
+</table>
+<br>
+<input type="submit" value="update Student Record">
+</form>
+</div>
+</body>
+</html>

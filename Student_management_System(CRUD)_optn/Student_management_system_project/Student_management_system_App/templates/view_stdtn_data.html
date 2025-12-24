@@ -1,0 +1,44 @@
+{% load static %}
+<html>
+ <head>
+    <title> View Detail page</title>
+    <link rel="stylesheet" href="{% static 'css/view.css' %}">
+</head>
+<body>
+	<h1> Student Dashboard</h1>
+		<nav>
+		<a href="{% url 'create' %}"> Create</a>
+		
+	</nav>
+
+
+	<table border=3 cellspacing="10">
+	 <tr>
+	     <th>Name</th>
+	     <th>Rollno</th>
+	     <th>Mark</th>
+             <th>Subject</th>
+	     <th>Delete</th>
+	     <th>Edit</th>
+
+
+	</tr>
+
+	{%if Recived_data %}
+	{% for data in Recived_data %}
+	<tr>
+		<td>{{data.name}}</td>
+		<td>{{data.rollno}}</td>
+		<td>{{data.mark}}</td>
+		<td>{{data.subject}}</td>
+		<td><a href="{% url 'delete' data.rollno %}">Delete</a></td>
+		<td><a href="{% url 'update' data.rollno %}">Update</a></td>
+
+	</tr>
+	{% endfor%}
+{%endif%}
+</table>
+
+
+ </body>
+</html>

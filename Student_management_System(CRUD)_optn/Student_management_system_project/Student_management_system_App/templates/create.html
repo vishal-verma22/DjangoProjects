@@ -1,0 +1,36 @@
+{% load static %}
+
+<html>
+<head>
+    <title>Student Create Page</title>
+    <link rel="stylesheet" href="{% static 'css/create.css' %}">
+    <script src="{% static 'js/createjs_validation.js' %}"></script>
+
+
+</head>
+<body>
+
+	
+  
+ <h1>Create page</h1>
+<nav>
+
+		<a href="{% url 'home' %}">  view student</a>
+
+
+	</nav>
+
+<div class="formcontainer">
+
+<form method="POST" onsubmit="return checkValidation()">
+{% csrf_token %}
+
+<table border=3>
+{{form.as_table}}
+</table>
+<br>
+<input type="submit" value="Create Student Record">
+</form>
+</div>
+</body>
+</html>

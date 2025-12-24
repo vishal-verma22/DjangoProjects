@@ -1,0 +1,53 @@
+{% load static %}
+
+<html>
+<head>
+     <title>Student Delete Page</title>
+     <link rel="stylesheet" href="{% static 'css/delete.css' %}">
+	<script>
+		function check(){
+			let name="{{received_data.name}}";
+			let rollno="{{received_data.rollno}}";
+
+			return confirm(`Are You sure u want to delete student record with  NAME: ${name} and ROLLNO ${rollno} ?`);
+
+			}
+	
+	</script>
+	
+
+</head>
+
+<body>
+
+    <h1>Delete Page</h1>
+
+    <nav>
+	<ul>
+        <li><a href="{% url 'home' %}">View Student</a></li>
+       <li><a href="{% url 'create' %}">Create Record</a><ul></li>
+	</ul>
+    </nav>
+
+    <form method="POST" onsubmit="return check()">
+        {% csrf_token %}
+
+        <table border="3">
+            <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+            </tr>
+
+            <tr>
+                <td>{{ received_data.name }}</td>
+                <td>{{ received_data.rollno }}</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <input type="submit" value="Delete Student Record">
+    </form>
+
+</body>
+</html>
