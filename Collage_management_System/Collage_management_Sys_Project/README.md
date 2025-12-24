@@ -1,8 +1,8 @@
-**# 🎓 Student Management System – Django CRUD Project**
+**# 🎓 Colleage Management System – Django CRUD Project**
 
 
 
-**A complete \*\*Student Management System\*\* built using \*\*Django Framework\*\* that performs CRUD operations for \*\*Departments\*\* and \*\*Students\*\*.**  
+**A complete \*\*Colleage Management System\*\* built using \*\*Django Framework\*\* that performs CRUD operations for \*\*Departments\*\* and \*\*Students\*\*.**  
 
 **This project demonstrates Django \*\*Models, Forms, Views, Templates\*\*, and \*\*Foreign Key relationships\*\* in a clean and beginner-friendly way.**
 
