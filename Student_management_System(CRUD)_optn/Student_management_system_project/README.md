@@ -10,11 +10,13 @@
 
 **---**
 
-
-
 **## Demo Video**
 
-**Watch the demo video on LinkedIn: \[Click Here](https://www.linkedin.com/posts/vishal-verma-283305314\_django-python-webdevelopment-activity-7409536339131633664-OQaz?utm\_source=share\&utm\_medium=member\_desktop\&rcm=ACoAAE\_Hh0MBBj6bfhGWPebnc2m1B01ZCS5Vd\_k)**
+**Watch the demo video on LinkedIn: \[Click Here](https://www.linkedin.com/posts/vishal-verma-283305314\_django-python-webdevelopment-activity-7405497965336756224-NSVf)**
+
+
+
+**> Note: You may need to be logged in to LinkedIn to view the demo video.**
 
 
 
