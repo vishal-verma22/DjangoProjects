@@ -1,0 +1,87 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center content horizontally */
+}
+
+/* Form container */
+form {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 50%;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+/* Input styling */
+input[type="file"], input[type="text"], input[type="submit"] {
+    display: block;
+    width: 70%;       /* adjust width */
+    margin: 10px auto; /* horizontal centering */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Error messages */
+.error-msg {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px auto; /* center horizontally */
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Success messages */
+.success-msg {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px auto; /* center horizontally */
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 25px;
+
+    /* Added styling */
+    padding: 10px 15px;
+    border: 1px solid #ddd;        /* light border */
+    border-radius: 6px;            /* soft curve */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* soft shadow */
+    background-color: #fafafa;     /* light background */
+    display: inline-block;         /* center box */
+}

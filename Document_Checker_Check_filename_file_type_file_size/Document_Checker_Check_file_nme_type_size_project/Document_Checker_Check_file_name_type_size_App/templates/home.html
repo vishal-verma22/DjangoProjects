@@ -1,0 +1,31 @@
+{% load static %}
+<html>
+<head>
+<title>Document Format Checker Appln</title>
+<link rel="stylesheet" href="{% static 'css/cs1.css' %}"
+</head>
+<body>
+
+<h2>Document Format Checker Appln</h2>
+<form method="POST" enctype="multipart/form-data">
+{% csrf_token %}
+
+{{form}}
+<input type="submit" value="Submit">
+</form>
+
+{%if Error %}
+	{% for i in Error %}
+	<p class="error-msg ">{{i}}</p>
+	{% endfor %}
+
+{% else %}
+
+	<p class="success-msg">{{Success|safe}}</p>
+{% endif %}
+
+
+
+
+</body>
+</html>
