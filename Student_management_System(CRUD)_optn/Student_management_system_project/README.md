@@ -12,7 +12,7 @@
 
 **## Demo Video**
 
-**Watch the demo video on LinkedIn: \[Click Here]**(https://www.linkedin.com/posts/vishal-verma-283305314_django-python-webdevelopment-activity-7405497965336756224-NSVf?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAE_Hh0MBBj6bfhGWPebnc2m1B01ZCS5Vd_k)**
+**Watch the demo video on LinkedIn: \[Click Here]** **(https://www.linkedin.com/posts/vishal-verma-283305314_django-python-webdevelopment-activity-7405497965336756224-NSVf?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAE_Hh0MBBj6bfhGWPebnc2m1B01ZCS5Vd_k)**
 
 
 
