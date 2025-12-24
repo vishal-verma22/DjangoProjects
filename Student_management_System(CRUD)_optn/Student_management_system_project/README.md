@@ -12,6 +12,16 @@
 
 
 
+**## Demo Video**
+
+**Watch the demo video on LinkedIn: \[Click Here](https://www.linkedin.com/posts/vishal-verma-283305314\_django-python-webdevelopment-activity-7409536339131633664-OQaz?utm\_source=share\&utm\_medium=member\_desktop\&rcm=ACoAAE\_Hh0MBBj6bfhGWPebnc2m1B01ZCS5Vd\_k)**
+
+
+
+
+
+**---**
+
 **## Features**
 
 **- \*\*Create Student\*\* – Add a new student with name, roll number, subject, and marks.**
