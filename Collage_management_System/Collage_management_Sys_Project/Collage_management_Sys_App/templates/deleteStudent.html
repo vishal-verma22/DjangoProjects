@@ -1,0 +1,33 @@
+{% load static %}
+<html>
+  <head>
+	<title>Delete Student Page</title>
+	<link rel="stylesheet" href="{% static 'css/deleteStudent.css' %}"></link>
+  </head>
+  <body>
+ 	<nav>
+		<a href="{% url 'home' %}">Home</a>
+		<a href="{% url 'add_dept' %}">Add Department</a>
+		<a href="{% url 'add_stdn' %}">Student</a>
+ 	</nav>
+
+	<h1> Delete Department Page</h1>
+	<form method="POST">
+	{% csrf_token %}
+		<br>
+
+
+		<h2> Do You Want Delete ?</h2>
+		Rollno:{{received_data.name}}
+		<br>
+		 Name:{{received_data.rollno}}
+		<br>
+		 Branch:{{received_data.Branch}}
+		<br>
+		<br>
+		<input type="submit" value="Delete Student">
+	</table>
+		
+  </body>
+
+</html>

@@ -1,0 +1,28 @@
+{% load static %}
+<html>
+  <head>
+	<title>Student Page</title>
+	<link rel="stylesheet" href="{% static 'css/createStudent.css' %}"></link>
+
+  </head>
+  <body>
+ 	
+	<nav>
+
+	<a href="{% url 'view_stdn' %}">View Student</a>
+	<a href="{% url 'add_dept' %}">Department</a>
+
+	</nav>
+
+	<h1> Add Student Section</h1>
+
+	<form method="POST">
+	{% csrf_token %}
+		{{form}}
+	<br>
+	<input type="submit" value="Add Student">
+	</form>
+<div class="message">{{message}}</div>
+  </body>
+
+</html>

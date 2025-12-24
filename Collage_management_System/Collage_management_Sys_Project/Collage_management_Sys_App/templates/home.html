@@ -1,0 +1,16 @@
+{% load static %}
+<html>
+  <head>
+	<title>Home Page</title>
+	<link rel="stylesheet" href="{% static 'css/home.css' %}"></link>
+  </head>
+  <body>
+ 	<nav>
+		<a href="{% url 'add_dept' %}">Department</a>
+		<a href="{% url 'add_stdn' %}">Student</a>
+ 	</nav>
+
+	<h1> Home Page</h1>
+  </body>
+
+</html>

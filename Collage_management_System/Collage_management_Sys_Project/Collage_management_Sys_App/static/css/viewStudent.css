@@ -1,0 +1,81 @@
+/* viewStudent.css */
+*{text-align:center}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 50px;
+}
+
+h1{
+	background-color:blue;
+	color:white;
+	margin: 20Px auto;
+	width:36%;
+	border-radius:5px;
+	padding:10px;
+
+}
+
+nav{
+
+	background-color:black;
+	padding:12px;
+	margin:20px auto;
+	border-radius:8px;
+	border:inset;
+	width:100%
+	}
+
+ nav a{
+	 
+	text-decoration:none;
+	font-size:30px;
+	color:white;
+	margin:110px
+
+
+	}
+
+nav a:hover{
+	cursor:pointer;
+	color:orange;
+	}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+td a {
+    color: white;
+    background-color: #d9534f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+td a:hover {
+    background-color: #c9302c;
+}

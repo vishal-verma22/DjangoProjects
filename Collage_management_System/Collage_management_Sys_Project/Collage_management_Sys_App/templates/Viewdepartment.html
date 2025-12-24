@@ -1,0 +1,38 @@
+{% load static %}
+<html>
+  <head>
+	<title>View Department Page</title>
+	<link rel="stylesheet" href="{% static 'css/viewDepartment.css' %}"></link>
+  </head>
+  <body>
+ 	<nav>
+		<a href="{% url 'home' %}">Home</a>
+		<a href="{% url 'add_dept' %}">Department</a>
+		<a href="{% url 'add_dept' %}">Student</a>
+
+	 </nav>
+
+	<h1> View Department Section</h1>
+
+
+	<table border=3>
+		<tr>
+			<th>Department Id</th>
+			<th>Department Name</th>
+			<th> Delete Department</th>
+
+
+		</tr>
+		{% for data in model%}
+	<tr>
+		<td>{{data.Dept_id}}</td>
+		<td>{{data.Dept_name}}</td>
+		<td><a href="{% url 'delete_dept' data.Dept_id %}">Delete</a></td>
+
+	</tr>
+
+	{% endfor %}
+	</table>
+  </body>
+
+</html>

@@ -1,0 +1,36 @@
+{% load static %}
+<html>
+  <head>
+	<title>Student Page</title>
+	<link rel="stylesheet" href="{% static 'css/viewStudent.css' %}"></link>
+
+  </head>
+  <body>
+ 	<nav>
+	<a href="{% url 'add_stdn' %}">Add Student</a>
+	<a href="{% url 'add_dept' %}">Department</a>
+
+	</nav>
+	<h1> Student View Section</h1>
+
+<table border=3>
+	<tr>
+		<th>Rollno</th>
+		<th>Name</th>
+		<th>Branch</th>
+		<th>Delete</th>
+	</tr>
+
+	{% for data in received_data %}
+	<tr>
+		<td>{{data.rollno}}</td>
+		<td>{{data.name}}</td>
+		<td>{{data.Branch}}</td>
+		<td><a href="{% url 'delete_stdn' data.rollno %}">Delete</a></td>
+	</tr>
+
+	{% endfor %}
+
+  </body>
+
+</html>

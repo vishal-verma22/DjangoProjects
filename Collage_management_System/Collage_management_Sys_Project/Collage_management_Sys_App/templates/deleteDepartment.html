@@ -1,0 +1,31 @@
+{% load static %}
+<html>
+  <head>
+	<title>Delete Department Page</title>
+	<link rel="stylesheet" href="{% static 'css/home.css' %}"></link>
+  </head>
+  <body>
+ 	<nav>
+		<a href="{% url 'home' %}">Home</a>
+		<a href="{% url 'add_dept' %}">Add Department</a>
+		<a href="{% url 'add_dept' %}">Student</a>
+ 	</nav>
+
+	<h1> Delete Department Page</h1>
+	<form method="POST">
+	{% csrf_token %}
+		<br>
+
+
+		<h2> Do You Want Delete ?</h2>
+		Department Id:{{received_data.Dept_id}}
+		<br>
+		Department Name:{{received_data.Dept_name}}
+		<br>
+		<br>
+		<input type="submit" value="Delete Department">
+	</table>
+		
+  </body>
+
+</html>
