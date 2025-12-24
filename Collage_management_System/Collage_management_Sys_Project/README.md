@@ -18,7 +18,9 @@
 
 **Watch the complete working demo of this project on LinkedIn:**
 
-**🔗 https://www.linkedin.com/posts/vishal-verma-283305314_djangoframework-pythondeveloper-webappdevelopment-activity-7405860363277168640-huKY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAE_Hh0MBBj6bfhGWPebnc2m1B01ZCS5Vd_k
+
+🔗**[Click Here]**(https://www.linkedin.com/posts/vishal-verma-283305314_djangoframework-pythondeveloper-webappdevelopment-activity-7405860363277168640-huKY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAE_Hh0MBBj6bfhGWPebnc2m1B01ZCS5Vd_k)
+
 
 **---**
 
